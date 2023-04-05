@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+}
+
+p {
+    color: gray;
+    font-size: 12px;
+    margin: 0 0;
+}
+
+.t1 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.search-bar {
+    width: 300px;
+    height: 25px;
+    border: 1.5px gray solid;
+    border-radius: 4px;
+    padding-left: 6px;
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+.t2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.btn {
+    padding: 12px 108px;
+    background-color: #2C64BC;
+    border: none;
+    color: white;
+    border-radius: 64px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+.btn:active {
+    opacity: .6;
+}
