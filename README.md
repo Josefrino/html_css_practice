@@ -1,2 +1,2 @@
 # html_css_practice
-Basic html css youtube clone, only frontend
+Html and Css exercises from Html Css course
