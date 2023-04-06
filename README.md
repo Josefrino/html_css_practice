@@ -1,2 +1,2 @@
 # html_css_practice
-Html and Css exercises from Html Css course
+HTML & CSS Full Course - Beginner to Pro, from SuperSimpleDev
