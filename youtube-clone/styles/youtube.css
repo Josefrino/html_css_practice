@@ -13,13 +13,17 @@
     width: 300px;
 }
 
+.video-title{
+    margin-top: 0;
+}
 .channel-picture {
     display: inline-block;
     width: 50px;
+    vertical-align: top;
 }
 
 .profile-picture {
-    width: 50px;
+    width: 100%;
 }
 
 .video-info {
