@@ -7,12 +7,22 @@
     display: block;
 }
 
-.video-title {
-    width: 300px;
-}
-
 .video-preview {
     vertical-align: top;
     display: inline-block;
     width: 300px;
+}
+
+.channel-picture {
+    display: inline-block;
+    width: 50px;
+}
+
+.profile-picture {
+    width: 50px;
+}
+
+.video-info {
+    display: inline-block;
+    width: 200px;
 }
