@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>8d</title>
+    <style>
+        .name-text-box {
+            border: 1px solid gray;
+            width: 80px;
+            padding: 8px 8px;
+            border-radius: 6px;
+            margin-bottom: 6px;
+        }
+
+        .surname-text-box {
+            border: 1px solid gray;
+            width: 80px;
+            padding: 8px 8px;
+            border-radius: 6px;
+            margin-bottom: 6px;
+        }
+
+        .name-text-box:focus {
+            outline: none;
+        }
+
+        .surname-text-box:focus {
+            outline: none;
+        }
+
+        .email-text-box {
+            display: block;
+            border: 1px solid gray;
+            width: 180px;
+            padding: 8px 10px;
+            border-radius: 6px;
+            margin-bottom: 6px;
+        }
+
+        .email-text-box:focus {
+            outline: none;
+        }
+
+        .btn {
+            display: block;
+            background-color: #3875E8;
+            width: 205px;
+            border-radius: 6px;
+            padding: 10px 10px;
+            font-size: 16px;
+            border: none;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            opacity: .8;
+        }
+
+        .btn:active {
+            opacity: .6;
+        }
+    </style>
+</head>
+
+<body>
+    <input class="name-text-box" type="text" placeholder="First name">
+    <input class="surname-text-box" type="text" placeholder="Last name">
+    <input class="email-text-box" type="text" placeholder="Email">
+    <button class="btn">Sign up</button>
+</body>
+
+</html>

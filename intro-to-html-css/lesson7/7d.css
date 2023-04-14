@@ -1,0 +1,6 @@
+.search-bar {
+    border-radius: 6px;
+    border: 1px gray solid;
+    padding: 8px 12px;
+    font-size: 15px;
+}

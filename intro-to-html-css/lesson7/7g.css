@@ -1,0 +1,37 @@
+body {
+    font-family: Verdana;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.t1 {
+    margin-left: 6px;
+    color: gray;
+    vertical-align: middle;
+}
+
+.btn {
+    margin-left: 54px;
+    vertical-align: middle;
+    background-color: #4B99E9;
+    border-style: none;
+    padding: 8px 12px;
+    font-weight: bold;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+.btn:active {
+    opacity: .6;
+}

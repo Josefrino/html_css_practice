@@ -1,0 +1,57 @@
+body {
+    font-family: Verdana;
+}
+
+p {
+    margin: 0;
+}
+
+.title {
+    margin-top: 4px;
+    margin-bottom: 12px;
+    font-size: 24px;
+}
+
+.search-bar {
+    display: block;
+    width: 230px;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+    border: none;
+    background-color: rgb(232, 232, 232);
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+.separator {
+    margin-top: 18px;
+}
+
+.btn-primary {
+    padding: 10px 14px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.btn-primary:active {
+    opacity: .8;
+}
+
+.btn-secondary {
+    padding: 10px 14px;
+    color: black;
+    background-color: rgb(232, 232, 232);
+    border: none;
+    cursor: pointer;
+}
+
+.btn-secondary:active {
+    opacity: .8;
+}
