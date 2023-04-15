@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>11d</title>
+    <style>
+        p {
+            margin: 0;
+            font-family: Verdana;
+        }
+
+        .container {
+            width: 100%;
+            height: 280px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+        }
+
+        .main-img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+
+        .img-2 {
+            width: 30px;
+            height: 30px;
+            margin-right: 2px;
+            border-radius: 40px;
+            vertical-align: middle;
+        }
+
+        .name {
+            font-size: 14px;
+            font-weight: bold;
+            vertical-align: bottom;
+        }
+
+        .t2 {
+            display: inline-block;
+            font-size: 12px;
+            vertical-align: middle;
+            color: gray;
+        }
+
+        .content-row {
+            height: 30px;
+            width: 100%;
+            margin-top: 6px;
+            margin-bottom: 10px;
+        }
+
+        .content {
+            padding: 10px 0 5px 10px;
+        }
+
+        .btn {
+            padding: 8px 12px;
+            text-align: center;
+            border-style: none;
+            border-radius: 4px;
+            background-color: rgb(6, 128, 242);
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn:active {
+            opacity: .8;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            column-gap: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="container">
+            <div class="image-container">
+                <img class="main-img" src="cat.jpeg" alt="cat-img">
+            </div>
+            <div class="content">
+                <p class="name">Oliver</p>
+                <div class="content-row">
+                    <img class="img-2" src="dog2.jpeg" alt="dog-img">
+                    <p class="t2">2 mutual friends</p>
+                </div>
+                <button class="btn">Add Friend</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image-container">
+                <img class="main-img" src="cat.jpeg" alt="cat-img">
+            </div>
+            <div class="content">
+                <p class="name">Oliver</p>
+                <div class="content-row">
+                    <img class="img-2" src="dog2.jpeg" alt="dog-img">
+                    <p class="t2">2 mutual friends</p>
+                </div>
+                <button class="btn">Add Friend</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image-container">
+                <img class="main-img" src="cat.jpeg" alt="cat-img">
+            </div>
+            <div class="content">
+                <p class="name">Oliver</p>
+                <div class="content-row">
+                    <img class="img-2" src="dog2.jpeg" alt="dog-img">
+                    <p class="t2">2 mutual friends</p>
+                </div>
+                <button class="btn">Add Friend</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
