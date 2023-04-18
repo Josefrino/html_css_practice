@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        12f
+    </title>
+    <style>
+        body {
+            font-family: verdana;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            background-color: #7154AC;
+            align-items: center;
+            width: 800px;
+        }
+
+        .search-bar {
+            flex: 1;
+            margin-left: 50px;
+            margin-right: 50px;
+            height: 30px;
+            border: none;
+            border-radius: 50px;
+            padding-left: 10px;
+        }
+
+        .search-bar:focus {
+            outline: none;
+        }
+
+        .home {
+            color: white;
+            padding-left: 12px;
+        }
+
+        .btn {
+            padding: 6px 8px;
+            color: white;
+            background-color: transparent;
+            border: solid 1px white;
+            margin-right: 12px;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: background-color .1s, color .1s;
+        }
+
+        .btn:active {
+            background-color: white;
+            color: #7154AC;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <p class="home">Home</p>
+        <input type="text" placeholder="Search" class="search-bar">
+        <button class="btn">Download</button>
+    </div>
+</body>
+
+</html>
