@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 13c</title>
+    <style>
+        p {
+            margin: 0;
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+
+        .container {
+            width: 410px;
+            padding: 6px 12px 20px 12px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+            border-radius: 4px;
+        }
+
+        .row {
+            display: flex;
+            margin-top: 16px;
+        }
+
+        .col {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .cat-img {
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+            margin-right: 12px;
+            object-fit: cover;
+        }
+
+        .inbox-text {
+            font-size: 16px;
+            color: gray;
+        }
+
+        .promotion-text,
+        .sales-text {
+            font-weight: bold;
+            margin-bottom: 2px;
+        }
+
+        .time-text {
+            color: gray;
+            font-size: 13px;
+            padding-top: 6px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p class="inbox-text">All Inboxes</p>
+        <div class="row">
+            <img class="cat-img" src="cat.jpeg" alt="cat-img">
+            <div class="col">
+                <p class="promotion-text">Chewy Promotions</p>
+                <p class="sales-text">Biggest sales of the year!</p>
+                <p class="message">Hey there! We're writing to tell you about our..</p>
+            </div>
+            <p class="time-text">4:58 PM</p>
+        </div>
+    </div>
+</body>
+
+</html>
