@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>exercise 14e</title>
+    <style>
+        body {
+            height: 3000px;
+        }
+
+        p {
+            margin: 0;
+            font-family: arial;
+        }
+
+        .header {
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+
+        .profile-section {
+            display: flex;
+            align-items: center;
+            margin-right: 120px;
+        }
+
+        .cat-img {
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            margin-right: 10px;
+            object-fit: cover;
+        }
+
+        .name {
+            font-weight: bold;
+        }
+
+        .btn-primary {
+            background-color: #3872DC;
+            color: white;
+            cursor: pointer;
+            width: 90px;
+            height: 32px;
+            border: none;
+            border-radius: 4px;
+            margin-right: 6px;
+            font-weight: bold;
+        }
+
+        .btn-secondary {
+            background-color: rgb(235, 235, 235);
+            color: black;
+            cursor: pointer;
+            width: 90px;
+            height: 32px;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .btn-primary:active,
+        .btn-secondary:active {
+            opacity: .8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="profile-section">
+            <img class="cat-img" src="cat.jpeg" alt="">
+            <p class="name">Oliver Cat</p>
+        </div>
+        <div class="btn-section">
+            <button class="btn-primary">Add Friend</button>
+            <button class="btn-secondary">Message</button>
+        </div>
+    </div>
+</body>
+
+</html>
