@@ -33,12 +33,14 @@
 
         .right-sidebar {
             position: fixed;
+            display: flex;
+            flex-direction: column;
             left: 60px;
             top: 0;
             height: 130px;
             width: 120px;
             background-color: #313131;
-            padding-top: 8px;
+            justify-content: center;
             padding-left: 8px;
         }
 
@@ -58,6 +60,30 @@
         .text-items {
             color: #929292;
             margin-bottom: 8px;
+            font-size: 12px;
+        }
+
+        .right-sidebar-big {
+            position: fixed;
+            top: 0;
+            left: 60px;
+            bottom: 0;
+            width: 180px;
+            background-color: #303136;
+            justify-content: start;
+        }
+
+        .plus-sign {
+            margin-left: 150px;
+            margin-top: 13px;
+            display: flex;
+            justify-content: center;
+            background-color: #313131;
+            font-weight: bold;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            color: #929292;
         }
     </style>
 </head>
@@ -71,11 +97,14 @@
                 <img class="image" src="dog.jpeg" alt="">
             </div>
         </div>
-        <div class="right-sidebar">
-            <p class="info-text">Info</p>
-            <p class="text-items"># new-videos</p>
-            <p class="text-items"># updates</p>
-            <p class="text-items"># faq</p>
+        <div class="right-sidebar-big">
+            <div class="right-sidebar">
+                <p class="info-text">Info</p>
+                <p class="text-items"># new-videos</p>
+                <p class="text-items"># updates</p>
+                <p class="text-items"># faq</p>
+            </div>
+            <div class="plus-sign">+</div>
         </div>
     </div>
 </body>
