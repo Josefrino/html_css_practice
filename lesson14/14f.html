@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>exercise 14f</title>
+    <style>
+        .left-sidebar {
+            width: 60px;
+            padding-top: 6px;
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            background-color: #202225;
+        }
+
+        .image {
+            width: 40px;
+            height: 40px;
+            border-radius: 40px;
+            object-fit: cover;
+            margin-top: 12px;
+        }
+
+        .center {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .right-sidebar {
+            position: fixed;
+            left: 60px;
+            top: 0;
+            height: 130px;
+            width: 120px;
+            background-color: #313131;
+            padding-top: 8px;
+            padding-left: 8px;
+        }
+
+        p {
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .info-text {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 14px;
+            color: #DDDDDD;
+            margin-bottom: 12px;
+        }
+
+        .text-items {
+            color: #929292;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="center">
+                <img class="image" src="cat.jpeg" alt="">
+                <img class="image" src="cat2.jpeg" alt="">
+                <img class="image" src="dog.jpeg" alt="">
+            </div>
+        </div>
+        <div class="right-sidebar">
+            <p class="info-text">Info</p>
+            <p class="text-items"># new-videos</p>
+            <p class="text-items"># updates</p>
+            <p class="text-items"># faq</p>
+        </div>
+    </div>
+</body>
+
+</html>
