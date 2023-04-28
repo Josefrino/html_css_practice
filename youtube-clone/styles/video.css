@@ -19,16 +19,19 @@
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .channel-picture {
     vertical-align: top;
+    height: 36px;
 }
 
 .profile-picture {
-    width: 40px;
+    width: 36px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .video-author,
@@ -38,17 +41,20 @@
 }
 
 .video-info-grid {
+    position: relative;
     display: grid;
     grid-template-columns: 50px 1fr;
 }
 
 .video-author {
     margin-bottom: 4px;
+    cursor: pointer;
 }
 
 .thumbnail-row {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     position: relative;
+    cursor: pointer;
 }
 
 .video-time {
@@ -62,4 +68,57 @@
     position: absolute;
     bottom: 8px;
     right: 5px;
+}
+
+.video-link {
+    text-decoration: none;
+}
+
+.video-link:visited {
+    color: transparent;
+}
+
+.channel-tooltip {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .4);
+    border-radius: 4px;
+    display: flex;
+    padding: 12px 12px;
+    justify-content: center;
+    align-items: center;
+    bottom: -45px;
+    z-index: 12;
+    opacity: 0;
+    transition: opacity .15s;
+    pointer-events: none;
+}
+
+.channel-picture:hover .channel-tooltip {
+    opacity: 1;
+}
+
+.channel-tooltip img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.channel-tooltip .column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    justify-content: start;
+}
+
+.channel-tooltip .name {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.channel-tooltip .stats {
+    font-size: 14px;
+    color: gray;
 }

@@ -22,47 +22,84 @@
             <input class="search-bar" type="text" placeholder="Search">
             <button class="search-btn">
                 <img class="search-icon" src="icons/search.svg" alt="">
+                <div class="tooltip">Search</div>
             </button>
             <button class="voice-search-btn">
                 <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+                <div class="tooltip">Search with your voice</div>
             </button>
         </div>
         <div class="right-section">
-            <img class="upload-icon" src="icons/upload.svg" alt="">
-            <img class="apps-icon" src="icons/youtube-apps.svg" alt="">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg" alt="">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="apps-icon-container">
+                <img class="apps-icon" src="icons/youtube-apps.svg" alt="">
+                <div class="tooltip">YouTube apps</div>
+            </div>
             <div class="notifications-container">
                 <img class="notifications-icon" src="icons/notifications.svg" alt="">
                 <div class="notifications-count">3</div>
+                <div class="tooltip">Notifications</div>
             </div>
             <img class="my-channel-img" src="channel-picture/my-channel.jpeg" alt="">
         </div>
     </div>
     <div class="sidebar">
         <div class="sidebar-link">
-            <div class="sidebar-icon-container">
-                <img class="link-img" src="icons/home.svg" alt="">
-                <p>Home</p>
-            </div>
+            <img class="link-img" src="icons/home.svg" alt="">
+            <div>Home</div>
         </div>
-        <div class="sidebar-link"></div>
-        <div class="sidebar-link"></div>
-        <div class="sidebar-link"></div>
-        <div class="sidebar-link"></div>
-        <div class="sidebar-link"></div>
+        <div class="sidebar-link">
+            <img class="link-img" src="icons/explore.svg" alt="">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="link-img" src="icons/subscriptions.svg" alt="">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="link-img" src="icons/originals.svg" alt="">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="link-img" src="icons/youtube-music.svg" alt="">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="link-img" src="icons/library.svg" alt="">
+            <div>Library</div>
+        </div>
     </div>
     <div class="video-grid">
         <div class="video-preview">
-            <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="thumbnail-1-img">
-                <div class="video-time">14:20</div>
-            </div>
+            <a class="video-link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY&ab_channel=MarquesBrownlee">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="thumbnail-1-img">
+                    <div class="video-time">14:20</div>
+                </div>
+            </a>
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img class="profile-picture" src="channel-picture/channel-1.jpeg" alt="">
+                    <a class="video-link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY&ab_channel=MarquesBrownlee">
+                        <img class="profile-picture" src="channel-picture/channel-1.jpeg" alt="">
+                    </a>
+                    <div class="channel-tooltip">
+                        <img src="channel-picture/channel-1.jpeg" alt="">
+                        <div class="column">
+                            <div class="name">Marques Brownlee</div>
+                            <div class="stats">15M subscribers</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="video-info">
-                    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
-                    <p class="video-author">Marques Brownlee</p>
+                    <a class="video-link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY&ab_channel=MarquesBrownlee">
+                        <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    </a>
+                    <a class="video-link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY&ab_channel=MarquesBrownlee">
+                        <p class="video-author">Marques Brownlee</p>
+                    </a>
                     <p class="video-stats">3.4M views · 6 months ago</p>
                 </div>
             </div>
